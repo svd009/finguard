@@ -1,0 +1,52 @@
+NEXUS FINANCIAL SERVICES
+DATA PROTECTION AND PRIVACY POLICY
+Document Version: 1.8 | Last Updated: November 2023
+
+1. DATA COLLECTION PRINCIPLES
+
+We collect only the data necessary to provide our services and meet
+regulatory obligations. Data is collected with customer consent at
+onboarding through our terms of service agreement.
+
+2. DATA STORAGE AND SECURITY
+
+Customer personal data is stored in encrypted databases (AES-128).
+Data is backed up daily to our primary data center.
+Access to customer data requires role-based authentication.
+
+CURRENT SECURITY MEASURES:
+  - Database encryption: AES-128 (at rest)
+  - Data in transit: TLS 1.2
+  - Access logging: Not currently implemented
+  - Penetration testing: Annually
+
+3. DATA RETENTION
+
+Personal data is retained for 3 years following account closure.
+This applies to all categories of customer data including identity
+documents, transaction records, and communication logs.
+
+4. DATA SUBJECT RIGHTS
+
+Customers may request:
+  - Access to their personal data (response within 30 days)
+  - Correction of inaccurate data
+  - Deletion of their data (subject to regulatory retention requirements)
+
+Data deletion requests are processed within 60 days.
+
+5. DATA BREACH RESPONSE
+
+In the event of a data breach:
+  - Internal notification: within 24 hours to CISO
+  - Customer notification: within 7 days if data is compromised
+  - Regulatory notification: as required by applicable law
+
+6. THIRD PARTY SHARING
+
+Customer data is shared with:
+  - Credit bureaus for creditworthiness assessment
+  - Regulatory authorities as required by law
+  - Service providers under data processing agreements
+
+We do not sell customer data to third parties for marketing purposes.

@@ -1,0 +1,48 @@
+NEXUS FINANCIAL SERVICES
+INTERNAL ANTI-MONEY LAUNDERING POLICY
+Document Version: 3.2 | Last Updated: January 2024
+
+1. PURPOSE AND SCOPE
+
+This policy establishes Nexus Financial Services' framework for detecting,
+preventing and reporting money laundering activities. It applies to all
+employees, contractors, and third-party service providers.
+
+2. CUSTOMER DUE DILIGENCE PROCEDURES
+
+2.1 Standard CDD
+
+CDD is required for all new customers prior to account opening. Our CDD process:
+  a) Identity verification using government-issued photo ID
+  b) Address verification using utility bill or bank statement
+  c) Basic source of funds declaration for accounts expected to exceed $50,000
+
+IMPORTANT POLICY GAP: Our current policy requires CDD only at onboarding.
+We do not have a formal ongoing CDD review schedule. Reviews are conducted
+on an ad-hoc basis when flagged by transaction monitoring.
+
+2.2 Transaction Thresholds
+
+Currency Transaction Reports (CTR) are filed for cash transactions exceeding $10,000.
+Suspicious Activity Reports (SAR) are filed at the discretion of the compliance officer
+for transactions that appear unusual.
+
+CURRENT THRESHOLD: Our automated monitoring flags transactions above $9,500 for
+manual review (to catch structuring). Below this threshold, automated monitoring
+is not applied unless manually requested.
+
+3. RECORD KEEPING
+
+Customer records are retained for 3 years from account closure.
+Transaction records are retained for 4 years from transaction date.
+
+4. STAFF TRAINING
+
+AML training is conducted annually for all customer-facing staff.
+Compliance team receives quarterly updates.
+
+5. REPORTING STRUCTURE
+
+Suspicious activity is reported to the Chief Compliance Officer (CCO).
+The CCO is responsible for filing SARs with FinCEN.
+Escalation timeline: Branch staff → Branch Manager → CCO (within 48 hours).

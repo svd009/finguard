@@ -1,0 +1,42 @@
+NEXUS FINANCIAL SERVICES
+CAPITAL ADEQUACY POLICY
+Document Version: 2.0 | Last Updated: February 2024
+
+1. CAPITAL REQUIREMENTS
+
+Nexus Financial Services maintains capital ratios in accordance with
+applicable regulatory requirements.
+
+TARGET CAPITAL RATIOS:
+  Common Equity Tier 1 (CET1): Minimum 6.0% of RWA
+  Tier 1 Capital:               Minimum 7.5% of RWA
+  Total Capital:                Minimum 9.5% of RWA
+
+NOTE: Our internal targets exceed the Basel III minimums to provide
+a buffer above regulatory floors.
+
+2. CAPITAL CONSERVATION BUFFER
+
+We maintain a capital conservation buffer target of 2.0% above minimum
+CET1 requirements.
+
+POLICY GAP: Our capital conservation buffer policy does not include the
+automatic distribution constraints required under Basel III when the buffer
+falls below 2.5%. Our policy allows dividend payments at management
+discretion even when the buffer is below regulatory thresholds.
+
+3. LIQUIDITY MANAGEMENT
+
+The treasury team monitors liquidity daily.
+LCR is reported to the board monthly.
+Target LCR: 110% (above regulatory minimum of 100%).
+
+4. REPORTING
+
+Capital ratios are calculated and reported internally on a monthly basis.
+Regulatory reporting is submitted quarterly.
+
+NOTED PROCEDURE: Internal reporting occurs monthly, but our policy does
+not specify the 24-hour breach reporting requirement to regulators.
+Staff may not be aware that any breach of minimum capital requirements
+requires same-day notification to the supervisory authority.

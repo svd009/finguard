@@ -1,0 +1,55 @@
+NEXUS FINANCIAL SERVICES
+KNOW YOUR CUSTOMER POLICY
+Document Version: 2.1 | Last Updated: March 2024
+
+1. CUSTOMER ONBOARDING REQUIREMENTS
+
+1.1 Individual Customers
+
+Required documentation:
+  - Government-issued photo ID (passport or driver's license)
+  - Proof of address (utility bill, not older than 6 months)
+  - Social Security Number or ITIN
+
+Verification is performed manually by onboarding staff.
+Digital/e-KYC is not currently implemented.
+
+1.2 Business Customers
+
+Required documentation:
+  - Articles of incorporation
+  - EIN verification letter
+  - Beneficial ownership form for owners with 25%+ stake
+
+NOTE: We do not currently collect information on the "control person" —
+the individual with significant management responsibility. This was
+identified as a gap in our last internal audit but has not yet been remediated.
+
+2. RISK RATING
+
+Customers are rated Low, Medium, or High risk at onboarding based on:
+  - Country of residence
+  - Occupation/industry
+  - Expected transaction volume
+
+Review schedule:
+  Low risk: Every 3 years
+  Medium risk: Every 18 months
+  High risk: Annually
+
+3. POLITICALLY EXPOSED PERSONS (PEPs)
+
+PEPs are identified through manual screening against public databases.
+Enhanced Due Diligence is applied to all PEPs including:
+  - Senior management sign-off on account opening
+  - Enhanced transaction monitoring
+  - Annual review regardless of assigned risk rating
+
+4. DATA STORAGE
+
+Customer KYC records are stored in our internal CRM system.
+Access is restricted to compliance and onboarding teams.
+Records are retained per our standard 3-year retention policy.
+
+NOTED GAP: Our 3-year retention policy is shorter than the 5-year minimum
+required by FinCEN regulations. This is under review by legal.

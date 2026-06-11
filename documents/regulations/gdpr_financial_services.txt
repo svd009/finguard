@@ -1,0 +1,62 @@
+GENERAL DATA PROTECTION REGULATION (GDPR)
+APPLICATION TO FINANCIAL SERVICES AND FINTECH COMPANIES
+
+ARTICLE 5: PRINCIPLES RELATING TO PROCESSING OF PERSONAL DATA
+
+Personal data shall be:
+(a) processed lawfully, fairly and in a transparent manner (lawfulness, fairness,
+    transparency);
+(b) collected for specified, explicit and legitimate purposes and not further
+    processed in a manner incompatible with those purposes (purpose limitation);
+(c) adequate, relevant and limited to what is necessary (data minimisation);
+(d) accurate and, where necessary, kept up to date (accuracy);
+(e) kept in a form which permits identification for no longer than necessary
+    (storage limitation);
+(f) processed in a manner that ensures appropriate security (integrity and
+    confidentiality).
+
+ARTICLE 6: LAWFUL BASIS FOR PROCESSING
+
+Financial institutions processing customer data must establish one of:
+1. Consent: explicit, informed, freely given, withdrawable at any time
+2. Contract performance: processing necessary for service delivery
+3. Legal obligation: processing required by AML/KYC regulations
+4. Legitimate interests: provided not overridden by data subject rights
+
+Note: AML/KYC processing is typically justified under legal obligation (Article 6(1)(c)).
+This does NOT eliminate other GDPR obligations — notice requirements, security
+measures, and data subject rights still fully apply.
+
+ARTICLE 17: RIGHT TO ERASURE ("RIGHT TO BE FORGOTTEN")
+
+Data subjects may request erasure of their personal data. However, in financial
+services, this right is LIMITED where data must be retained for:
+  - Legal obligations (AML record keeping: 5 years minimum)
+  - Establishment, exercise or defence of legal claims
+
+Financial institutions must document the legal basis for refusing erasure requests.
+
+ARTICLE 25: DATA PROTECTION BY DESIGN AND BY DEFAULT
+
+Financial institutions and fintechs must implement appropriate technical and
+organisational measures to ensure data protection principles are integrated
+into processing activities from the design phase:
+
+  - Pseudonymisation of customer data where possible
+  - Minimum data collection (collect only what is needed for compliance)
+  - Access controls limiting staff access to customer data
+  - Audit logs of all data access
+
+ARTICLE 32: SECURITY OF PROCESSING
+
+Appropriate technical and organisational measures include:
+  - Encryption of personal data at rest and in transit (AES-256 minimum)
+  - Ability to restore availability and access after incident
+  - Regular testing of security measures
+  - Data breach notification to supervisory authority within 72 hours
+
+ARTICLE 83: ADMINISTRATIVE FINES
+
+Infringements of the basic principles (Article 5, 6, 7) are subject to:
+  Maximum fine: EUR 20,000,000 or 4% of total worldwide annual turnover
+  (whichever is higher)

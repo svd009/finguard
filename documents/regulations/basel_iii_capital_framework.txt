@@ -1,0 +1,78 @@
+BASEL COMMITTEE ON BANKING SUPERVISION
+BASEL III: A GLOBAL REGULATORY FRAMEWORK FOR MORE RESILIENT BANKS
+Bank for International Settlements
+
+PART 1: MINIMUM CAPITAL REQUIREMENTS
+
+1.1 COMPOSITION OF CAPITAL
+
+Regulatory capital consists of three tiers:
+
+TIER 1 CAPITAL (Going-concern capital):
+Common Equity Tier 1 (CET1):
+  - Common shares issued by the bank
+  - Stock surplus resulting from the issue of CET1 instruments
+  - Retained earnings
+  - Accumulated other comprehensive income
+  Minimum CET1 ratio: 4.5% of risk-weighted assets (RWA)
+
+Additional Tier 1 (AT1):
+  - Instruments issued by the bank that meet AT1 criteria
+  - Stock surplus resulting from the issue of AT1 instruments
+  Minimum Tier 1 ratio: 6.0% of RWA
+
+TIER 2 CAPITAL (Gone-concern capital):
+  - Instruments issued by the bank that meet Tier 2 criteria
+  - General provisions/general loan-loss reserves
+  Minimum Total Capital ratio: 8.0% of RWA
+
+1.2 CAPITAL CONSERVATION BUFFER
+
+Banks must maintain a capital conservation buffer of 2.5% of total RWA,
+comprised of CET1 capital. This buffer exists to absorb losses during
+periods of financial and economic stress. When the buffer is drawn down,
+automatic constraints on earnings distributions are applied:
+
+Buffer level (CET1)     | Minimum conservation ratio
+4.5% - 5.125%           | 100% (no distribution allowed)
+5.125% - 5.75%          | 80%
+5.75% - 6.375%          | 60%
+6.375% - 7.0%           | 40%
+Above 7.0%              | 0% (no constraint)
+
+1.3 COUNTERCYCLICAL CAPITAL BUFFER
+
+Jurisdictional authorities may impose an additional countercyclical buffer
+of 0% to 2.5% of RWA during periods of excessive credit growth.
+
+1.4 LEVERAGE RATIO
+
+A non-risk-based leverage ratio serves as a backstop to the risk-based
+capital requirements. Minimum Tier 1 leverage ratio: 3.0%.
+
+PART 2: LIQUIDITY REQUIREMENTS
+
+2.1 LIQUIDITY COVERAGE RATIO (LCR)
+
+Banks must maintain adequate high-quality liquid assets (HQLA) to survive
+a significant stress scenario lasting 30 calendar days.
+
+LCR = Stock of HQLA / Total net cash outflows over 30 days >= 100%
+
+HQLA includes:
+  Level 1: Cash, central bank reserves, zero risk-weight sovereign debt (no haircut)
+  Level 2A: 20% haircut — certain sovereign/central bank debt, covered bonds
+  Level 2B: 25-50% haircut — RMBS, corporate bonds, equities
+
+2.2 NET STABLE FUNDING RATIO (NSFR)
+
+Banks must maintain a stable funding profile in relation to the composition
+of their assets and off-balance sheet activities.
+
+NSFR = Available Stable Funding / Required Stable Funding >= 100%
+
+PART 3: REPORTING REQUIREMENTS
+
+Banks must report capital ratios to supervisory authorities quarterly.
+Any breach of minimum capital requirements must be reported within 24 hours.
+Recovery plans must be updated annually and submitted to regulators.
