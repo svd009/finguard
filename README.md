@@ -18,7 +18,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FinGuard System                       │
+│                    FinGuard System                      │
 │                                                         │
 │  [1] Document Ingestion Layer                           │
 │       PDFs/TXT → chunks → embeddings → indexed          │
@@ -26,7 +26,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 │  [2] Multi-Index Hybrid RAG Engine                      │
 │       BM25 lexical + semantic vector search             │
 │       Reciprocal Rank Fusion (RRF) for result merging   │
-│       Separate indexes: regulations vs policies          │
+│       Separate indexes: regulations vs policies         │
 │                    ↓                                    │
 │  [3] MCP Tool Server                                    │
 │       search_regulations · search_policies              │
@@ -34,7 +34,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 │                    ↓                                    │
 │  [4] Agentic Orchestrator                               │
 │       Router → classifies query complexity              │
-│       Simple  → RetrievalAgent (Haiku, fast + cheap)   │
+│       Simple  → RetrievalAgent (Haiku, fast + cheap)    │
 │       Complex → ReasoningAgent (Sonnet, extended think) │
 │                    ↓                                    │
 │  [5] Prompt Evaluation Framework                        │
@@ -220,8 +220,3 @@ Separation of concerns. The reasoning agent optimizes for analytical depth; the 
 - [PyMuPDF](https://pymupdf.readthedocs.io) — PDF processing
 
 ---
-
-## Author
-
-**Dngr** — M.S. Electrical & Computer Engineering, Rutgers University  
-Built as a capstone project demonstrating Anthropic Academy's AI Fluency and Claude API courses.
