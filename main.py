@@ -248,7 +248,7 @@ def run_eval_mode(evaluator: EvalFramework, executor: ComplianceToolExecutor):
     ))
 
     suite = evaluator.run_eval_suite(executor, verbose=True)
-
+    
     table = Table(title="Eval Suite Results", box=box.ROUNDED)
     table.add_column("Case ID",     style="dim")
     table.add_column("Topic",       width=35)
