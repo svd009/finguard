@@ -2,6 +2,33 @@
 
 > **Banking & Fintech Edition** | Built with Claude API, Multi-index RAG, MCP Tools, Extended Thinking, and Automated Evaluation
 
+**Status: Complete and verified end-to-end with a live Claude API run.**
+
+---
+
+## Verified Results
+
+A full audit run against the sample institution (Nexus Financial Services) across 6 compliance domains produced:
+
+| Metric | Result |
+|---|---|
+| Compliance gaps identified | 7 |
+| HIGH severity gaps | 5 |
+| MEDIUM severity gaps | 1 |
+| Overall risk level | HIGH |
+| Evaluation score (model-as-judge + rule-based) | 9.16 / 10 — PASSED |
+| Eval suite retrieval accuracy (ground-truth cases) | 4 / 4 (100%) |
+
+**Sample findings from the live run:**
+
+- **AML & KYC record retention** — internal policy retains records for 3 years; FATF and KYC guidelines require a 5-year minimum. This gap is self-acknowledged in two separate internal documents.
+- **Ongoing CDD monitoring** — no formal review schedule exists; automated transaction monitoring only triggers above $9,500, creating a blind spot for structuring below that threshold.
+- **Data encryption** — customer data encrypted with AES-128; GDPR Article 32 mandates AES-256. Access logging is entirely absent, violating GDPR Article 25.
+- **Capital breach reporting** — internal capital policy never addresses the Basel III 24-hour supervisory breach notification requirement.
+- **SAR filing framework** — suspicious activity reporting is discretionary internally, conflicting with FATF's no-threshold mandatory reporting requirement.
+
+The full machine-readable report from this run is saved in `reports/` as a timestamped JSON file, including the complete findings, source citations, and extended thinking trace.
+
 ---
 
 ## What It Does
@@ -18,7 +45,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FinGuard System                      │
+│                    FinGuard System                       │
 │                                                         │
 │  [1] Document Ingestion Layer                           │
 │       PDFs/TXT → chunks → embeddings → indexed          │
@@ -26,7 +53,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 │  [2] Multi-Index Hybrid RAG Engine                      │
 │       BM25 lexical + semantic vector search             │
 │       Reciprocal Rank Fusion (RRF) for result merging   │
-│       Separate indexes: regulations vs policies         │
+│       Separate indexes: regulations vs policies          │
 │                    ↓                                    │
 │  [3] MCP Tool Server                                    │
 │       search_regulations · search_policies              │
@@ -34,7 +61,7 @@ FinGuard is a production-grade AI system that automatically audits a bank or fin
 │                    ↓                                    │
 │  [4] Agentic Orchestrator                               │
 │       Router → classifies query complexity              │
-│       Simple  → RetrievalAgent (Haiku, fast + cheap)    │
+│       Simple  → RetrievalAgent (Haiku, fast + cheap)   │
 │       Complex → ReasoningAgent (Sonnet, extended think) │
 │                    ↓                                    │
 │  [5] Prompt Evaluation Framework                        │
@@ -220,3 +247,8 @@ Separation of concerns. The reasoning agent optimizes for analytical depth; the 
 - [PyMuPDF](https://pymupdf.readthedocs.io) — PDF processing
 
 ---
+
+## Author
+
+**Dngr** — M.S. Electrical & Computer Engineering, Rutgers University  
+Built as a capstone project demonstrating Anthropic Academy's AI Fluency and Claude API courses.
