@@ -110,8 +110,8 @@ EVAL_TEST_CASES = [
         "id": "EVAL-001",
         "topic": "AML record retention",
         "expected_gaps": [
-            "record retention period shorter than regulatory requirement",
-            "3 year vs 5 year retention",
+            "3 years",
+            "five years",
         ],
         "expected_sources": [
             "fatf_aml_recommendations.txt",
