@@ -1,4 +1,4 @@
-# FinGuard — Agentic Regulatory Compliance Intelligence System
+# FinGuard: Agentic Regulatory Compliance Intelligence System
 
 > **Banking & Fintech Edition** | Built with Claude API, Multi-index RAG, MCP Tools, Extended Thinking, and Automated Evaluation
 
@@ -33,11 +33,11 @@ The full machine-readable report from this run is saved in `reports/` as a times
 
 ## What It Does
 
-FinGuard is a production-grade AI system that automatically audits a bank or fintech company's internal policies against external regulatory requirements — identifying compliance gaps, assessing risk, and generating cited audit reports.
+FinGuard is a production-grade AI system that automatically audits a bank or fintech company's internal policies against external regulatory requirements, identifying compliance gaps, assessing risk, and generating cited audit reports.
 
 **The problem it solves:** Banks and fintech companies (Stripe, Plaid, Chime, traditional banks) must align their internal procedures with constantly evolving regulations (FATF AML guidelines, Basel III capital requirements, KYC standards, GDPR). Manual compliance review is expensive, slow, and error-prone. A single missed requirement can result in regulatory fines in the hundreds of millions.
 
-**What FinGuard does:** Feed it your regulatory documents and internal policies. It retrieves relevant clauses from both, reasons over the gaps using extended AI thinking, and produces a structured, cited compliance audit report — fully automatically.
+**What FinGuard does:** Feed it your regulatory documents and internal policies. It retrieves relevant clauses from both, reasons over the gaps using extended AI thinking, and produces a structured, cited compliance audit report, fully automatically.
 
 ---
 
